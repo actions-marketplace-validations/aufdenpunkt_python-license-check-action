@@ -1,0 +1,9 @@
+name: 'Python License Check'
+description: 'Helps to check and manage licenses of required python dependencies using liccheck'
+author: aufdenpunkt
+branding:
+  icon: 'shield'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
